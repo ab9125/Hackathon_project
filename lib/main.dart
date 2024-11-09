@@ -1,3 +1,7 @@
+import 'package:demo_hackathon/Screens/messageDiscover.dart';
+import 'package:demo_hackathon/Screens/messageReqDisc.dart';
+import 'package:demo_hackathon/Screens/messagerequest.dart';
+import 'package:demo_hackathon/Screens/scrollablePageView.dart';
 import 'package:demo_hackathon/message.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +22,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: Message(),
+      home: MessageReqDiscScreen(),
     );
   }
 }
